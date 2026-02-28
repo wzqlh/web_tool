@@ -15,7 +15,7 @@
 
 ## 在线预览
 
-- GitHub Pages: https://geeeeeeeek.github.io/web_tool/
+- GitHub Pages: https://wzqlh.github.io/web_tool/
 - Vercel: https://web-tool-omega.vercel.app/
 - Cloudflare Pages: https://web-a55.pages.dev/
 
@@ -25,7 +25,7 @@
 
 1. 克隆项目到本地
 ```bash
-git clone https://github.com/geeeeeeeek/web_tool.git
+git clone https://github.com/wzqlh/web_tool.git
 cd web_tool
 ```
 
@@ -72,7 +72,7 @@ scp -r ./* user@your-server:/var/www/web_tool/
 
 # 或者在服务器上使用 git clone
 cd /var/www
-sudo git clone https://github.com/geeeeeeeek/web_tool.git
+sudo git clone https://github.com/wzqlh/web_tool.git
 ```
 
 #### 3. 配置 Nginx
@@ -364,9 +364,9 @@ MIT License
 
 ## 联系方式
 
-- GitHub: https://github.com/geeeeeeeek
+- GitHub: https://github.com/wzqlh
 - 个人主页: https://web.gitapp.cn
-- Email: kefu308@gmail.com
+- Email: wzqlh2008@outlook.com
 
 ---
 
