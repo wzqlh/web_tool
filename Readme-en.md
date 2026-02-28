@@ -15,9 +15,9 @@ A web navigation tool based on HTML + CSS + JavaScript, with a clean and beautif
 
 ## Live Demo
 
-- GitHub Pages: https://geeeeeeeek.github.io/web_tool/
-- Vercel: https://web-tool-omega.vercel.app/
-- Cloudflare Pages: https://web-a55.pages.dev/
+- GitHub Pages: https://wzqlh.github.io/web_tool/
+- Vercel: https://vilianness.dpdns.org/
+- Cloudflare Pages: https://linch.pages.dev/
 
 ## Quick Start
 
@@ -25,7 +25,7 @@ A web navigation tool based on HTML + CSS + JavaScript, with a clean and beautif
 
 1. Clone the repository
 ```bash
-git clone https://github.com/geeeeeeeek/web_tool.git
+git clone https://github.com/wzqlh/web_tool.git
 cd web_tool
 ```
 
@@ -72,7 +72,7 @@ scp -r ./* user@your-server:/var/www/web_tool/
 
 # Or use git clone on server
 cd /var/www
-sudo git clone https://github.com/geeeeeeeek/web_tool.git
+sudo git clone https://github.com/wzqlh/web_tool.git
 ```
 
 #### 3. Configure Nginx
@@ -400,9 +400,9 @@ Issues and Pull Requests are welcome!
 
 ## Contact
 
-- GitHub: https://github.com/geeeeeeeek
-- Website: https://web.gitapp.cn
-- Email: kefu308@gmail.com
+- GitHub: https://github.com/wzqlh
+- Website: https://linch.pages.dev/
+- Email: wzqlh2008@outlook.com
 
 ---
 

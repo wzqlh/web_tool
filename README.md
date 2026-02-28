@@ -16,8 +16,8 @@
 ## 在线预览
 
 - GitHub Pages: https://wzqlh.github.io/web_tool/
-- Vercel: https://web-tool-omega.vercel.app/
-- Cloudflare Pages: https://web-a55.pages.dev/
+- Vercel: https://vilianness.dpdns.org/
+- Cloudflare Pages: https://linch.pages.dev/
 
 ## 快速开始
 
@@ -365,7 +365,7 @@ MIT License
 ## 联系方式
 
 - GitHub: https://github.com/wzqlh
-- 个人主页: https://web.gitapp.cn
+- 个人主页: https://linch.pages.dev/
 - Email: wzqlh2008@outlook.com
 
 ---
