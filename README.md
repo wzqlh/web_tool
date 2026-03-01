@@ -11,6 +11,7 @@
 - 支持日间/夜间模式切换
 - 分类清晰，支持快速搜索
 - 网址提交功能，方便收录管理
+- 支持配置化管理导航数据
 - 部署简单，支持多种部署方式
 
 ## 在线预览
@@ -44,7 +45,97 @@ npx http-server -p 8000
 
 ## 部署指南
 
-### 方式一：Nginx 部署
+### 方式一：Vercel 部署 (推荐)
+
+Vercel 提供免费的静态网站托管服务，部署简单快速。
+
+#### 方法 1: 通过 Vercel Dashboard (最简单)
+
+1. 访问 [Vercel 官网](https://vercel.com) 并注册/登录
+
+2. 点击 "Add New Project"
+
+3. 导入你的 GitHub 仓库
+   - 选择 "Import Git Repository"
+   - 授权 GitHub 并选择 `web_tool` 仓库
+
+4. 配置项目
+   - Framework Preset: 选择 "Other"
+   - Root Directory: `./` (保持默认)
+   - Build Command: 留空
+   - Output Directory: `./` (保持默认)
+
+5. 点击 "Deploy" 按钮，等待部署完成
+
+6. 部署成功后会自动分配一个域名，如：`your-project.vercel.app`
+
+#### 方法 2: 通过 Vercel CLI
+
+1. 安装 Vercel CLI
+
+```bash
+npm install -g vercel
+```
+
+2. 登录 Vercel
+
+```bash
+vercel login
+```
+
+3. 在项目目录下执行部署
+
+```bash
+cd web_tool
+vercel
+```
+
+4. 按照提示完成配置
+   - Set up and deploy? Y
+   - Which scope? 选择你的账户
+   - Link to existing project? N
+   - Project name? web_tool (或自定义名称)
+   - In which directory is your code located? ./
+
+5. 生产环境部署
+
+```bash
+vercel --prod
+```
+
+#### 自定义域名 (可选)
+
+1. 在 Vercel Dashboard 中打开你的项目
+
+2. 进入 "Settings" -> "Domains"
+
+3. 添加你的自定义域名
+
+4. 按照提示在域名服务商处添加 DNS 记录
+
+### 方式二：GitHub Pages
+
+1. 在 GitHub 仓库设置中启用 Pages
+2. 选择分支和目录（通常是 `master` 分支的 `/` 根目录）
+3. 保存后自动部署
+
+### 方式三：Cloudflare Pages
+
+1. 登录 Cloudflare Dashboard
+2. 进入 Pages 并创建新项目
+3. 连接 GitHub 仓库
+4. 配置构建设置（留空即可）
+5. 点击部署
+
+### 方式四：Netlify
+
+1. 登录 Netlify
+2. 点击 "Add new site" -> "Import an existing project"
+3. 选择 Git 仓库
+4. 构建命令和发布目录留空
+5. 点击 "Deploy site"
+
+### 方式五：Nginx 部署
 
 #### 1. 准备工作
 
@@ -146,112 +237,82 @@ sudo certbot --nginx -d your-domain.com
 sudo certbot renew --dry-run
 ```
 
-### 方式二：Vercel 部署 (推荐)
-
-Vercel 提供免费的静态网站托管服务，部署简单快速。
-
-#### 方法 1: 通过 Vercel Dashboard (最简单)
-
-1. 访问 [Vercel 官网](https://vercel.com) 并注册/登录
-
-2. 点击 "Add New Project"
-
-3. 导入你的 GitHub 仓库
-   - 选择 "Import Git Repository"
-   - 授权 GitHub 并选择 `web_tool` 仓库
-
-4. 配置项目
-   - Framework Preset: 选择 "Other"
-   - Root Directory: `./` (保持默认)
-   - Build Command: 留空
-   - Output Directory: `./` (保持默认)
-
-5. 点击 "Deploy" 按钮，等待部署完成
-
-6. 部署成功后会自动分配一个域名，如：`your-project.vercel.app`
-
-#### 方法 2: 通过 Vercel CLI
-
-1. 安装 Vercel CLI
-
-```bash
-npm install -g vercel
-```
-
-2. 登录 Vercel
-
-```bash
-vercel login
-```
-
-3. 在项目目录下执行部署
-
-```bash
-cd web_tool
-vercel
-```
-
-4. 按照提示完成配置
-   - Set up and deploy? Y
-   - Which scope? 选择你的账户
-   - Link to existing project? N
-   - Project name? web_tool (或自定义名称)
-   - In which directory is your code located? ./
-
-5. 生产环境部署
-
-```bash
-vercel --prod
-```
-
-#### 自定义域名 (可选)
-
-1. 在 Vercel Dashboard 中打开你的项目
-
-2. 进入 "Settings" -> "Domains"
-
-3. 添加你的自定义域名
-
-4. 按照提示在域名服务商处添加 DNS 记录
-
-
-### 方式三：其他部署平台
-
-#### GitHub Pages
-
-1. 在 GitHub 仓库设置中启用 Pages
-2. 选择分支和目录（通常是 `main` 分支的 `/` 根目录）
-3. 保存后自动部署
-
-#### Cloudflare Pages
-
-1. 登录 Cloudflare Dashboard
-2. 进入 Pages 并创建新项目
-3. 连接 GitHub 仓库
-4. 配置构建设置（留空即可）
-5. 点击部署
-
-#### Netlify
-
-1. 登录 Netlify
-2. 点击 "Add new site" -> "Import an existing project"
-3. 选择 Git 仓库
-4. 构建命令和发布目录留空
-5. 点击 "Deploy site"
-
 ## 二次开发
 
-### 修改网址导航内容
+### 配置化管理导航数据
 
-编辑 `index.html` 文件，找到对应的网址链接区域进行修改：
+项目支持通过 JSON 配置文件管理导航数据，无需修改 HTML 文件。
 
-```html
-<div class="url-card io-px-3 io-py-2 mb-2">
-    <a href="https://your-website.com" target="_blank" rel="nofollow" class="text-xs">
-        <strong>网站名称</strong>
-        <span class="url-desc">网站描述</span>
-    </a>
-</div>
+#### 配置文件结构
+
+配置文件位于 `config/websites.json`，包含以下结构：
+
+```json
+{
+  "categories": [
+    {
+      "id": "3e90c5117dc0fe9d71410e448d766e52",
+      "name": "常用工具",
+      "icon": "far fa-star",
+      "subcategories": []
+    },
+    {
+      "id": "89a839e0a347c0be73793d01e52c31ad",
+      "name": "科研办公",
+      "icon": "fas fa-flask",
+      "subcategories": [
+        {
+          "id": "89a839e0a347c0be73793d01e52c31ad",
+          "name": "生物信息"
+        },
+        {
+          "id": "acd617ea241c9daf2f251963bc03c6e3",
+          "name": "云服务器"
+        }
+      ]
+    }
+  ],
+  "websites": [
+    {
+      "id": "yuque",
+      "name": "语雀",
+      "url": "https://www.yuque.com/",
+      "description": "专业的云端知识库。",
+      "icon": "https://api.iowen.cn/favicon/www.yuque.com.php",
+      "fallbackIcon": "https://cdn.jsdelivr.net/gh/wzqlh/static@master/u/1.jpg",
+      "categoryId": "3e90c5117dc0fe9d71410e448d766e52"
+    }
+  ]
+}
+```
+
+#### 添加新网站
+
+在 `config/websites.json` 的 `websites` 数组中添加新的网站对象：
+
+```json
+{
+  "id": "unique-id",
+  "name": "网站名称",
+  "url": "https://example.com",
+  "description": "网站描述",
+  "icon": "https://api.iowen.cn/favicon/example.com.php",
+  "fallbackIcon": "https://example.com/fallback.jpg",
+  "categoryId": "category-id"
+}
+```
+
+#### 添加新分类
+
+在 `config/websites.json` 的 `categories` 数组中添加新的分类对象：
+
+```json
+{
+  "id": "unique-category-id",
+  "name": "分类名称",
+  "icon": "fas fa-icon-name",
+  "subcategories": []
+}
 ```
 
 ### 修改关于页面
@@ -281,20 +342,6 @@ $.ajax({
 - `custom-style.css` - 自定义样式
 - `style-3.03029.1.css` - 主题样式
 
-### 添加新的分类
-
-在 `index.html` 中添加新的分类区块：
-
-```html
-<div class="io-title text-sm" id="your-category-id">
-    <i class="far fa-star fa-lg fa-fw mr-1"></i>
-    分类名称
-</div>
-<div class="row io-mx-n2">
-    <!-- 添加网址卡片 -->
-</div>
-```
-
 ## 项目结构
 
 ```
@@ -304,13 +351,16 @@ web_tool/
 ├── 404.html               # 404 错误页面
 ├── about/
 │   └── index.html         # 关于页面
+├── config/
+│   └── websites.json      # 网站配置文件
 ├── assets/
 │   ├── css/               # 样式文件
 │   ├── js/                # JavaScript 文件
+│   │   └── load-websites.js # 动态加载网站数据
 │   ├── images/            # 图片资源
 │   └── fontawesome-5.15.4/ # 图标库
 ├── README.md              # 项目文档
-└── vercel.json            # Vercel 配置（可选）
+└── vercel.json            # Vercel 配置
 ```
 
 ## 常见问题
@@ -340,6 +390,15 @@ web_tool/
 - 提交到搜索引擎收录
 - 优化页面加载速度
 
+### 5. 如何修改导航数据
+
+推荐使用配置文件方式：
+1. 编辑 `config/websites.json` 文件
+2. 修改或添加网站和分类数据
+3. 刷新页面即可看到更新
+
+也可以直接修改 `index.html` 文件，但不推荐这种方式。
+
 ## 技术栈
 
 - HTML5
@@ -350,8 +409,8 @@ web_tool/
 
 ## 参考资料
 
-- [Nginx 官方文档](https://nginx.org/en/docs/)
 - [Vercel 部署文档](https://vercel.com/docs)
+- [Nginx 官方文档](https://nginx.org/en/docs/)
 - [Let's Encrypt 证书](https://letsencrypt.org/)
 
 ## 许可证

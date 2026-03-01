@@ -1,0 +1,1408 @@
+{
+  "categories": [
+    {
+      "id": "uncategorized",
+      "name": "常用工具",
+      "icon": "far fa-star",
+      "subcategories": []
+    },
+    {
+      "id": "research-office",
+      "name": "科研办公",
+      "icon": "fas fa-flask",
+      "subcategories": [
+        {"id": "bioinfo", "name": "生物信息"},
+        {"id": "cloud", "name": "云服务器"},
+        {"id": "office", "name": "办公学习"}
+      ]
+    },
+    {
+      "id": "entertainment",
+      "name": "影音娱乐",
+      "icon": "fas fa-film",
+      "subcategories": [
+        {"id": "video", "name": "影音视频"},
+        {"id": "game", "name": "游戏竞技"}
+      ]
+    },
+    {
+      "id": "material-resources",
+      "name": "素材资源",
+      "icon": "far fa-folder-open",
+      "subcategories": [
+        {"id": "netdisk", "name": "网盘资源"},
+        {"id": "icon-material", "name": "图标素材"},
+        {"id": "icon-design", "name": "图标设计"},
+        {"id": "graphic-material", "name": "平面素材"},
+        {"id": "font-resource", "name": "字体资源"},
+        {"id": "ppt-resource", "name": "PPT资源"}
+      ]
+    },
+    {
+      "id": "dev-design",
+      "name": "开发设计",
+      "icon": "fas fa-tools",
+      "subcategories": [
+        {"id": "graphic-creative", "name": "图形创意"},
+        {"id": "ui-design", "name": "界面设计"},
+        {"id": "color-scheme", "name": "在线配色"},
+        {"id": "mini-tools", "name": "在线工具"},
+        {"id": "chrome-plugin", "name": "谷歌插件"}
+      ]
+    },
+    {
+      "id": "info-learning",
+      "name": "资讯学习",
+      "icon": "fas fa-pencil-alt",
+      "subcategories": [
+        {"id": "book-resource", "name": "资讯书籍"},
+        {"id": "blog-forum", "name": "博客论坛"},
+        {"id": "design-spec", "name": "设计规范"},
+        {"id": "video-tutorial", "name": "视频教程"}
+      ]
+    }
+  ],
+  "websites": [
+    {
+      "id": "yuque",
+      "name": "语雀",
+      "url": "https://www.yuque.com/",
+      "description": "专业的云端知识库。",
+      "icon": "assets/images/logos/%e8%af%ad%e9%9b%80.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "qq-mail",
+      "name": "QQ 邮箱",
+      "url": "http://mail.qq.com/",
+      "description": "腾讯 QQ 邮箱。",
+      "icon": "assets/images/logos/qq%e9%82%ae%e7%ae%b1.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "oschina",
+      "name": "开源中国",
+      "url": "https://www.oschina.net/",
+      "description": "中文开源技术交流社区。",
+      "icon": "assets/images/logos/%e5%bc%80%e6%ba%90%e4%b8%ad%e5%9b%bd.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "wechat-mp",
+      "name": "公众号平台",
+      "url": "https://mp.weixin.qq.com/",
+      "description": "再小的个体也有自己的品牌。",
+      "icon": "assets/images/logos/%e5%be%ae%e4%bf%a1%e5%85%ac%e4%bc%97%e5%8f%b7.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "GitHub 开源社区。",
+      "icon": "assets/images/logos/github.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "online-ps",
+      "name": "在线ps",
+      "url": "https://zaixianps.net/",
+      "description": "一键p图抠图工具",
+      "icon": "assets/images/logos/inoreader.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "mortgage-calculator",
+      "name": "房贷计算器",
+      "url": "https://fangdai.gitapp.cn",
+      "description": "房贷利率计算器",
+      "icon": "assets/images/logos/awesome_design_systems.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "m3u8-player",
+      "name": "m3u8在线播放器",
+      "url": "https://m3u8player.org/",
+      "description": "m3u8/hls在线播放",
+      "icon": "assets/images/logos/Material_Design.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "online-tools",
+      "name": "在线工具助手",
+      "url": "https://tool.gitapp.cn",
+      "description": "一些常见的开发工具",
+      "icon": "assets/images/logos/mdx.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "remote-work",
+      "name": "远程工作",
+      "url": "https://yuancheng.works/",
+      "description": "远程职位搜索，一搜即达。",
+      "icon": "assets/images/logos/%e6%90%9c%e7%8b%97%e5%be%ae%e4%bf%a1.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "zhihu",
+      "name": "知乎",
+      "url": "https://www.zhihu.com/",
+      "description": "知乎社区。",
+      "icon": "assets/images/logos/%e7%9f%a5%e4%b9%8e.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "v2ex",
+      "name": "V2EX",
+      "url": "https://www.v2ex.com/",
+      "description": "V2EX 创意工作者的社区。",
+      "icon": "assets/images/logos/v2ex.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "uncategorized"
+    },
+    {
+      "id": "ncbi",
+      "name": "NCBI",
+      "url": "https://www.ncbi.nlm.nih.gov/",
+      "description": "National Center for Biotechnology Information.",
+      "icon": "assets/images/logos/ncbi.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "bioconda",
+      "name": "Bioconda",
+      "url": "https://anaconda.org/bioconda/",
+      "description": "Bioconda :: Anaconda.org.",
+      "icon": "assets/images/logos/bioconda.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "cpan",
+      "name": "CPAN",
+      "url": "https://metacpan.org/",
+      "description": "Search CPAN.",
+      "icon": "assets/images/logos/cpan.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "gitter-galaxy",
+      "name": "Gitter Galaxy",
+      "url": "https://gitter.im/galaxyproject",
+      "description": "Galaxy Gitter Community.",
+      "icon": "assets/images/logos/gitter.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "r-project",
+      "name": "R Project",
+      "url": "https://www.r-project.org/",
+      "description": "https://www.r-project.org",
+      "icon": "assets/images/logos/r-project.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "bioconductor",
+      "name": "Bioconductor",
+      "url": "http://www.bioconductor.org/",
+      "description": "http://www.bioconductor.org",
+      "icon": "assets/images/logos/bioconductor.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "bioinfo"
+    },
+    {
+      "id": "aliyun",
+      "name": "阿里云",
+      "url": "https://www.aliyun.com/",
+      "description": "上云就上阿里云。",
+      "icon": "assets/images/logos/%e9%98%bf%e9%87%8c%e4%ba%91.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "tencent-cloud",
+      "name": "腾讯云",
+      "url": "https://cloud.tencent.com/",
+      "description": "产业智变，云启未来。",
+      "icon": "assets/images/logos/%e8%85%be%e8%ae%af%e4%ba%91.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "huawei-cloud",
+      "name": "华为云",
+      "url": "https://www.huaweicloud.com/",
+      "description": "提供云计算服务+智能，见未来-华为云。",
+      "icon": "assets/images/logos/%e5%8d%8e%e4%b8%ba%e4%ba%91.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "cloudraft",
+      "name": "云筏科技",
+      "url": "https://my.cloudraft.cn/",
+      "description": "云筏 - 科研云。",
+      "icon": "assets/images/logos/",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "ji-cloud",
+      "name": "极云普惠云电脑",
+      "url": "https://www.ji-cloud.cn/",
+      "description": "云电脑-云游戏-手机变电脑软件。",
+      "icon": "assets/images/logos/%e6%9e%81%e4%ba%91%e6%99%ae%e6%83%a0%e4%ba%91%e7%94%b5%e8%84%91.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "qingjiao-cloud",
+      "name": "青椒云",
+      "url": "https://www.qingjiaocloud.com/",
+      "description": "云桌面,一站式云电脑服务平台。",
+      "icon": "assets/images/logos/%e9%9d%92%e6%a4%92%e4%ba%91.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "cloud"
+    },
+    {
+      "id": "youdao-dict",
+      "name": "有道词典",
+      "url": "https://www.youdao.com/",
+      "description": "免费，即时的多语种在线翻译。",
+      "icon": "assets/images/logos/%e6%9c%89%e9%81%93%e8%af%8d%e5%85%b8.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "office"
+    },
+    {
+      "id": "youdao-translate",
+      "name": "有道翻译",
+      "url": "http://fanyi.youdao.com/",
+      "description": "有道翻译。",
+      "icon": "assets/images/logos/%e6%9c%89%e9%81%93%e7%bf%bb%e8%af%91.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "office"
+    },
+    {
+      "id": "google-translate",
+      "name": "谷歌翻译",
+      "url": "https://translate.google.cn/",
+      "description": "谷歌翻译。",
+      "icon": "assets/images/logos/%e8%b0%b7%e6%ad%8c%e7%bf%bb%e8%af%91.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "office"
+    },
+    {
+      "id": "processon",
+      "name": "ProcessOn",
+      "url": "https://www.processon.com/",
+      "description": "免费在线作图、实时协作。",
+      "icon": "assets/images/logos/ProcessOn.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "office"
+    },
+    {
+      "id": "tencent-video",
+      "name": "腾讯视频",
+      "url": "http://v.qq.com/",
+      "description": "腾讯视频，海量视频在线观看。",
+      "icon": "assets/images/logos/%e8%85%be%e8%ae%af%e8%a7%86%e9%a2%91.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "youku",
+      "name": "优酷",
+      "url": "http://www.youku.com/",
+      "description": "优酷 - 这个世界很酷。",
+      "icon": "assets/images/logos/%e4%bc%98%e9%85%b7.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "iqiyi",
+      "name": "爱奇艺",
+      "url": "https://www.iqiyi.com/",
+      "description": "爱奇艺在线视频。",
+      "icon": "assets/images/logos/%e7%88%b1%e5%a5%87%e8%89%ba.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "bilibili",
+      "name": "哔哩哔哩",
+      "url": "https://www.bilibili.com/",
+      "description": "Bilibili 视频弹幕网站。",
+      "icon": "assets/images/logos/%e5%93%94%e5%93%a9%e5%93%94%e5%93%a9.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "qq-music",
+      "name": "QQ 音乐",
+      "url": "https://y.qq.com/",
+      "description": "QQ 音乐，在线听歌。",
+      "icon": "assets/images/logos/QQ%e9%9f%b3%e4%b9%90.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "netease-music",
+      "name": "网易云音乐",
+      "url": "https://music.163.com/",
+      "description": "163 网易云音乐。",
+      "icon": "assets/images/logos/%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "dytt8",
+      "name": "电影天堂（DYTT8）",
+      "url": "https://www.dytt8.net/index.htm",
+      "description": "电影天堂（DYTT8），高清电影下载。",
+      "icon": "assets/images/logos/%e7%94%b5%e5%bd%b1%e5%a4%a9%e5%a0%82.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "dygod",
+      "name": "电影天堂（DYGOD）",
+      "url": "https://www.dygod.net/",
+      "description": "电影天堂（DYGOD），高清电影下载。",
+      "icon": "assets/images/logos/%e7%94%b5%e5%bd%b1%e5%a4%a9%e5%a0%82.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video"
+    },
+    {
+      "id": "baidu-tieba",
+      "name": "百度贴吧",
+      "url": "#ZgotmplZ",
+      "description": "百度贴吧。",
+      "icon": "assets/images/logos/%e7%99%be%e5%ba%a6%e8%b4%b4%e5%90%a7.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "game"
+    },
+    {
+      "id": "ava",
+      "name": "台服战地",
+      "url": "https://ava.mangot5.com/ava/index",
+      "description": "台服 AVA 战地之王。",
+      "icon": "assets/images/logos/%e6%88%98%e5%9c%b0%e4%b9%8b%e7%8e%8b.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "game"
+    },
+    {
+      "id": "baidu-netdisk",
+      "name": "百度网盘",
+      "url": "http://pan.baidu.com/",
+      "description": "https://pan.baidu.com/.",
+      "icon": "assets/images/logos/%e7%99%be%e5%ba%a6%e7%bd%91%e7%9b%98.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "netdisk"
+    },
+    {
+      "id": "aliyun-netdisk",
+      "name": "阿里云盘",
+      "url": "https://www.aliyundrive.com/",
+      "description": "阿里云盘，你的数字世界。",
+      "icon": "assets/images/logos/%e9%98%bf%e9%87%8c%e4%ba%91%e7%9b%98.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "netdisk"
+    },
+    {
+      "id": "tianyi-netdisk",
+      "name": "天翼云盘",
+      "url": "https://cloud.189.cn/",
+      "description": "家庭云|网盘|文件备份|资源分享。",
+      "icon": "assets/images/logos/%e5%a4%a9%e7%bf%bc%e4%ba%91%e7%9b%98.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "netdisk"
+    },
+    {
+      "id": "jianguoyun",
+      "name": "坚果云",
+      "url": "https://www.jianguoyun.com/",
+      "description": "坚果云官网。",
+      "icon": "assets/images/logos/%e5%9d%9a%e6%9e%9c%e4%ba%91.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "netdisk"
+    },
+    {
+      "id": "iconfinder",
+      "name": "Iconfinder",
+      "url": "https://www.iconfinder.com",
+      "description": "2,100,000+ free and premium vector icons.",
+      "icon": "assets/images/logos/Iconfinder.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "iconfont",
+      "name": "iconfont",
+      "url": "http://www.iconfont.cn/",
+      "description": "阿里巴巴矢量图标库。",
+      "icon": "assets/images/logos/iconfont.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "iconmonstr",
+      "name": "iconmonstr",
+      "url": "https://iconmonstr.com/",
+      "description": "Free simple icons for your next project.",
+      "icon": "assets/images/logos/iconmonstr.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "iconarchive",
+      "name": "Icon Archive",
+      "url": "http://www.iconarchive.com/",
+      "description": "Search 590,912 free icons.",
+      "icon": "assets/images/logos/iconarchive.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "findicons",
+      "name": "FindIcons",
+      "url": "https://findicons.com/",
+      "description": "Search through 300,000 free icons.",
+      "icon": "assets/images/logos/FindIcons.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "icomoon",
+      "name": "IcoMoonApp",
+      "url": "https://icomoon.io/app/",
+      "description": "Icon Font, SVG, PDF & PNG Generator.",
+      "icon": "assets/images/logos/IcoMoonApp.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "easyicon",
+      "name": "easyicon",
+      "url": "http://www.easyicon.net/",
+      "description": "PNG、ICO、ICNS格式图标搜索、图标下载服务。",
+      "icon": "assets/images/logos/easyicon.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "flaticon",
+      "name": "flaticon",
+      "url": "https://www.flaticon.com/",
+      "description": "634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.",
+      "icon": "assets/images/logos/flaticon.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "uicloud",
+      "name": "UICloud",
+      "url": "http://ui-cloud.com/",
+      "description": "The largest user interface design database in world.",
+      "icon": "assets/images/logos/UICloud.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "material-icons",
+      "name": "Material icons",
+      "url": "https://material.io/icons/",
+      "description": "Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.",
+      "icon": "assets/images/logos/Materialicons.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "fontawesome",
+      "name": "Font Awesome Icon",
+      "url": "https://fontawesome.com/icons/",
+      "description": "The complete set of 675 icons in Font Awesome.",
+      "icon": "assets/images/logos/fontawesomeicon.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "ionicons",
+      "name": "ion icons",
+      "url": "http://ionicons.com/",
+      "description": "The premium icon font for Ionic Framework.",
+      "icon": "assets/images/logos/ionicons.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "simpleline-icons",
+      "name": "Simpleline Icons",
+      "url": "http://simplelineicons.com/",
+      "description": "Simple line Icons pack.",
+      "icon": "assets/images/logos/simplelineicons.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-material"
+    },
+    {
+      "id": "iconsfeed",
+      "name": "Iconsfeed",
+      "url": "http://www.iconsfeed.com/",
+      "description": "iOS icons gallery.",
+      "icon": "assets/images/logos/iconsfeed.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-design"
+    },
+    {
+      "id": "ios-icon-gallery",
+      "name": "iOS Icon Gallery",
+      "url": "http://iosicongallery.com/",
+      "description": "Showcasing beautiful icon designs from iOS App Store.",
+      "icon": "assets/images/logos/iosicongallery.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-design"
+    },
+    {
+      "id": "world-vector-logo",
+      "name": "World Vector Logo",
+      "url": "https://worldvectorlogo.com/",
+      "description": "Brand logos free to download.",
+      "icon": "assets/images/logos/worldvectorlogo.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-design"
+    },
+    {
+      "id": "instant-logo-search",
+      "name": "Instant Logo Search",
+      "url": "http://instantlogosearch.com/",
+      "description": "Search & download thousands of logos instantly.",
+      "icon": "assets/images/logos/InstantLogoSearch.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "icon-design"
+    },
+    {
+      "id": "freepik",
+      "name": "freepik",
+      "url": "https://www.freepik.com/",
+      "description": "More than a million free vectors, PSD, photos and free icons.",
+      "icon": "assets/images/logos/freepik.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "wallhalla",
+      "name": "wallhalla",
+      "url": "https://wallhalla.com/",
+      "description": "Find awesome high quality wallpapers for desktop and mobile in one place.",
+      "icon": "assets/images/logos/wallhalla.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "365psd",
+      "name": "365PSD",
+      "url": "https://365psd.com/",
+      "description": "Free PSD & Graphics, Illustrations.",
+      "icon": "assets/images/logos/365PSD.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "medialoot",
+      "name": "Medialoot",
+      "url": "https://medialoot.com/",
+      "description": "Free & Premium Design Resources — Medialoot.",
+      "icon": "assets/images/logos/Medialoot.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "qiantu",
+      "name": "千图网",
+      "url": "http://www.58pic.com/",
+      "description": "专注免费设计素材下载的网站.",
+      "icon": "assets/images/logos/qiantu.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "qianku",
+      "name": "千库网",
+      "url": "http://588ku.com/",
+      "description": "免费 png 图片背景素材下载。",
+      "icon": "assets/images/logos/qianku.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "wotu",
+      "name": "我图网",
+      "url": "http://www.ooopic.com/",
+      "description": "我图网，提供图片素材及模板下载，专注正版设计作品交易。",
+      "icon": "assets/images/logos/wotu.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "90sheji",
+      "name": "90 设计",
+      "url": "http://90sheji.com/",
+      "description": "电商设计（淘宝美工）千图免费淘宝素材库。",
+      "icon": "assets/images/logos/90sheji.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "nipic",
+      "name": "昵图网",
+      "url": "http://www.nipic.com/",
+      "description": "原创素材共享平台。",
+      "icon": "assets/images/logos/nipic.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "lanrentuku",
+      "name": "懒人图库",
+      "url": "http://www.lanrentuku.com/",
+      "description": "懒人图库专注于提供网页素材下载。",
+      "icon": "assets/images/logos/lanrentuku.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "sousucai",
+      "name": "素材搜索",
+      "url": "http://so.ui001.com/",
+      "description": "设计素材搜索聚合。",
+      "icon": "assets/images/logos/sousucai.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "psefan",
+      "name": "PS 饭团网",
+      "url": "http://psefan.com/",
+      "description": "不一样的设计素材库！让自己的设计与众不同！",
+      "icon": "assets/images/logos/psefan.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "sccnn",
+      "name": "素材中国",
+      "url": "http://www.sccnn.com/",
+      "description": "免费素材共享平台。",
+      "icon": "assets/images/logos/sccnn.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-material"
+    },
+    {
+      "id": "google-font",
+      "name": "Google Font",
+      "url": "https://fonts.google.com/",
+      "description": "Making web more beautiful, fast, and open through great typography.",
+      "icon": "assets/images/logos/googlefont.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "typekit",
+      "name": "Typekit",
+      "url": "https://typekit.com/",
+      "description": "Quality fonts from world's best foundries.",
+      "icon": "assets/images/logos/typekit.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "foundertype",
+      "name": "方正字库",
+      "url": "http://www.foundertype.com/",
+      "description": "方正字库官方网站。",
+      "icon": "assets/images/logos/Fondertype.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "ziticq",
+      "name": "字体传奇网",
+      "url": "http://ziticq.com/",
+      "description": "中国首个字体品牌设计师交流网。",
+      "icon": "assets/images/logos/ziticq.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "sicangziti",
+      "name": "私藏字体",
+      "url": "http://sicangziti.com/",
+      "description": "优质字体免费下载站。",
+      "icon": "assets/images/logos/sicangziti.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "fontsquirrel",
+      "name": "Fontsquirrel",
+      "url": "https://www.fontsquirrel.com/",
+      "description": "FREE fonts for graphic designers.",
+      "icon": "assets/images/logos/fontsquirrel.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "urbanfonts",
+      "name": "Urban Fonts",
+      "url": "https://www.urbanfonts.com/",
+      "description": "Download Free Fonts and Free Dingbats.",
+      "icon": "assets/images/logos/UrbanFonts.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "losttype",
+      "name": "Lost Type",
+      "url": "http://www.losttype.com/",
+      "description": "Lost Type is a Collaborative Digital Type Foundry.",
+      "icon": "assets/images/logos/losttype.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "fonts2u",
+      "name": "FONTS2U",
+      "url": "https://fonts2u.com/",
+      "description": "Download free fonts for Windows and Macintosh.",
+      "icon": "assets/images/logos/fonts2u.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "fontex",
+      "name": "Fontex",
+      "url": "http://www.fontex.org/",
+      "description": "Free Fonts to Download + Premium Typefaces.",
+      "icon": "assets/images/logos/fontex.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "fontm",
+      "name": "FontM",
+      "url": "http://fontm.com/",
+      "description": "Free Fonts",
+      "icon": "assets/images/logos/FontM.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "myfonts",
+      "name": "My Fonts",
+      "url": "http://www.myfonts.com/",
+      "description": "Fonts for Print, Products & Screens.",
+      "icon": "assets/images/logos/MyFonts.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "dafont",
+      "name": "Da Font",
+      "url": "https://www.dafont.com/",
+      "description": "Archive of freely downloadable fonts.",
+      "icon": "assets/images/logos/dafont.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "onlinewebfonts",
+      "name": "OnlineWebFonts",
+      "url": "https://www.onlinewebfonts.com/",
+      "description": "WEB Free Fonts for Windows and Mac / Font free Download.",
+      "icon": "assets/images/logos/OnlineWebFonts.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "abstractfonts",
+      "name": "Abstract Fonts",
+      "url": "http://www.abstractfonts.com/",
+      "description": "Abstract Fonts (13,866 free fonts).",
+      "icon": "assets/images/logos/abstractfonts.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "font-resource"
+    },
+    {
+      "id": "officeplus",
+      "name": "OfficePLUS",
+      "url": "http://www.officeplus.cn/Template/Home.shtml",
+      "description": "OfficePLUS，微软Office官方在线模板网站！",
+      "icon": "assets/images/logos/officeplus.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "ypppt",
+      "name": "优品PPT",
+      "url": "http://www.ypppt.com/",
+      "description": "高质量的模版，而且还有PPT图表，PPT背景图等资源。",
+      "icon": "assets/images/logos/ypppt.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "pptplus",
+      "name": "PPT+",
+      "url": "http://www.pptplus.cn/",
+      "description": "PPT加直播、录制和分享—PPT+语音内容分享平台。",
+      "icon": "assets/images/logos/pptplus.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "pptmind",
+      "name": "PPTMind",
+      "url": "http://www.pptmind.com/",
+      "description": "分享高端 ppt 模板与 keynote 模板的数字作品交易平台。",
+      "icon": "assets/images/logos/pptmind.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "tretars",
+      "name": "tretars",
+      "url": "http://www.tretars.com/ppt-templates",
+      "description": "The best free Mockups from Web.",
+      "icon": "assets/images/logos/tretars.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "500d",
+      "name": "5百丁",
+      "url": "http://ppt.500d.me/",
+      "description": "中国领先的PPT模板共享平台。",
+      "icon": "assets/images/logos/500d.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ppt-resource"
+    },
+    {
+      "id": "photoshop",
+      "name": "photoshop",
+      "url": "https://www.adobe.com/cn/products/photoshop.html",
+      "description": "Photoshop不需要解释",
+      "icon": "assets/images/logos/photoshop.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer",
+      "url": "https://affinity.serif.com/",
+      "description": "专业创意软件",
+      "icon": "assets/images/logos/AffinityDesigner.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "illustrator",
+      "name": "Illustrator",
+      "url": "https://www.adobe.com/cn/products/illustrator/",
+      "description": "矢量图形和插图。",
+      "icon": "assets/images/logos/Illustrator.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "indesign",
+      "name": "indesign",
+      "url": "http://www.adobe.com/cn/products/indesign.html",
+      "description": "页面设计、布局和出版。",
+      "icon": "assets/images/logos/INDESIGN%20.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "cinema-4d",
+      "name": "cinema-4d",
+      "url": "https://www.maxon.net/en/products/cinema-4d/overview/",
+      "description": "Cinema 4D is perfect package for all 3D artists who want to achieve breathtaking results fast and hassle-free.",
+      "icon": "assets/images/logos/cinema4d.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "3ds-max",
+      "name": "3ds-max",
+      "url": "https://www.autodesk.com/products/3ds-max/overview",
+      "description": "3D modeling, animation, and rendering software",
+      "icon": "assets/images/logos/3dsmax.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org/",
+      "description": "Blender is free and open source 3D creation suite.",
+      "icon": "assets/images/logos/blender.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "graphic-creative"
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "url": "https://sketchapp.com/",
+      "description": "The digital design toolkit",
+      "icon": "assets/images/logos/sketchapp.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "url": "http://www.adobe.com/products/xd.html",
+      "description": "Introducing Adobe XD. Design. Prototype. Experience.",
+      "icon": "assets/images/logos/ADOBEXDCC.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "invisionapp",
+      "name": "invisionapp",
+      "url": "https://www.invisionapp.com/",
+      "description": "Powerful design prototyping tools",
+      "icon": "assets/images/logos/invisionapp.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "marvelapp",
+      "name": "marvelapp",
+      "url": "https://marvelapp.com/",
+      "description": "Simple design, prototyping and collaboration",
+      "icon": "assets/images/logos/marvelapp.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "muse-cc",
+      "name": "Muse CC",
+      "url": "https://creative.adobe.com/zh-cn/products/download/muse",
+      "description": "无需利用编码即可进行网站设计。",
+      "icon": "assets/images/logos/MuseCC.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "figma",
+      "name": "figma",
+      "url": "https://www.figma.com/",
+      "description": "Design, prototype, and gather feedback all in one place with Figma.",
+      "icon": "assets/images/logos/figma.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "ui-design"
+    },
+    {
+      "id": "khroma",
+      "name": "khroma",
+      "url": "http://khroma.co/generator/",
+      "description": "Khroma is fastest way to discover, search, and save color combos you'll want to use.",
+      "icon": "assets/images/logos/khroma.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "uigradients",
+      "name": "uigradients",
+      "url": "https://uigradients.com",
+      "description": "Beautiful colored gradients.",
+      "icon": "assets/images/logos/uigradients.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "gradients",
+      "name": "gradients",
+      "url": "http://gradients.io/",
+      "description": "Curated gradients for designers and developers.",
+      "icon": "assets/images/logos/gradients.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "coolest",
+      "name": "Coolest",
+      "url": "https://webkul.github.io/coolhue/",
+      "description": "Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff.",
+      "icon": "assets/images/logos/Coolest.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "webgradients",
+      "name": "webgradients",
+      "url": "https://webgradients.com/",
+      "description": "WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.",
+      "icon": "assets/images/logos/webgradients.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "grabient",
+      "name": "grabient",
+      "url": "https://www.grabient.com/",
+      "description": "2017 Grabient by unfold.",
+      "icon": "assets/images/logos/grabient.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "thedayscolor",
+      "name": "thedayscolor",
+      "url": "http://www.thedayscolor.com/",
+      "description": "The daily color digest",
+      "icon": "assets/images/logos/thedayscolor.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "flatuicolors",
+      "name": "flatuicolors",
+      "url": "http://flatuicolors.com/",
+      "description": "Copy Paste Color Palette from Flat UI Theme.",
+      "icon": "assets/images/logos/flatuicolors.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "coolors",
+      "name": "coolors",
+      "url": "https://coolors.co/",
+      "description": "The super fast color schemes generator!",
+      "icon": "assets/images/logos/coolors.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "colorhunt",
+      "name": "colorhunt",
+      "url": "http://www.colorhunt.co/",
+      "description": "Beautiful Color Palettes.",
+      "icon": "assets/images/logos/colorhunt.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "adobe-color-cc",
+      "name": "Adobe Color CC",
+      "url": "https://color.adobe.com/zh/create/color-wheel",
+      "description": "Create color schemes with color wheel or browse thousands of color combinations from Color community.",
+      "icon": "assets/images/logos/AdobeColorCC.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "flatuicolorpicker",
+      "name": "flatuicolorpicker",
+      "url": "http://www.flatuicolorpicker.com/",
+      "description": "Best Flat Colors For UI Design.",
+      "icon": "assets/images/logos/flatuicolorpicker.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "trianglify",
+      "name": "trianglify",
+      "url": "http://qrohlf.com/trianglify-generator/",
+      "description": "Trianglify Generator.",
+      "icon": "assets/images/logos/trianglify.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "klart",
+      "name": "klart",
+      "url": "https://klart.co/colors/",
+      "description": "Beautiful colors and designs to your inbox every week.",
+      "icon": "assets/images/logos/klart.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "vanschneider",
+      "name": "vanschneider",
+      "url": "http://www.vanschneider.com/colors",
+      "description": "Color Claim was created in 2012 by Tobias van Schneider with goal to collect & combine unique colors for my future projects.",
+      "icon": "assets/images/logos/vanschneider.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "color-scheme"
+    },
+    {
+      "id": "tinypng",
+      "name": "tinypng",
+      "url": "https://tinypng.com/",
+      "description": "Optimize your images with a perfect balance in quality and file size.",
+      "icon": "assets/images/logos/tinypng.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "goqr",
+      "name": "goqr",
+      "url": "http://goqr.me/",
+      "description": "create QR codes for free (Logo, T-Shirt, vCard, EPS).",
+      "icon": "assets/images/logos/goqr.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "ezgif",
+      "name": "ezgif",
+      "url": "https://ezgif.com",
+      "description": "simple online GIF maker and toolset for basic animated GIF editing.",
+      "icon": "assets/images/logos/ezgif.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "android-9-patch",
+      "name": "Android 9 patch",
+      "url": "http://inloop.github.io/shadow4android/",
+      "description": "Android 9-patch shadow generator fully customizable shadows.",
+      "icon": "assets/images/logos/Android9patch.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "screen-sizes",
+      "name": "screen sizes",
+      "url": "http://screensiz.es/",
+      "description": "Viewport Sizes and Pixel Densities for Popular Devices.",
+      "icon": "assets/images/logos/screensizes.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "base64",
+      "name": "base64在线解码",
+      "url": "https://base64.icu",
+      "description": "base64在线解码与编码",
+      "icon": "assets/images/logos/svgomg.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "mini-tools"
+    },
+    {
+      "id": "wappalyzer",
+      "name": "wappalyzer",
+      "url": "https://www.wappalyzer.com/",
+      "description": "Identify technology on websites.",
+      "icon": "assets/images/logos/wappalyzer.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "usepanda",
+      "name": "Panda",
+      "url": "http://usepanda.com/",
+      "description": "A smart news reader built for productivity.",
+      "icon": "assets/images/logos/usepanda.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "sizzy",
+      "name": "sizzy",
+      "url": "https://sizzy.co/",
+      "description": "A tool for developing responsive websites crazy-fast.",
+      "icon": "assets/images/logos/sizzy.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "csspeeper",
+      "name": "csspeeper",
+      "url": "https://csspeeper.com/",
+      "description": "Smart CSS viewer tailored for Designers.",
+      "icon": "assets/images/logos/csspeeper.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "insight",
+      "name": "insight",
+      "url": "http://insight.io/",
+      "description": "IDE-like code search and navigation, on cloud.",
+      "icon": "assets/images/logos/insight.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "mustsee",
+      "name": "mustsee",
+      "url": "http://mustsee.earth/",
+      "description": "Discover world's most beautiful places at every opened tab.",
+      "icon": "assets/images/logos/mustsee.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "chrome-plugin"
+    },
+    {
+      "id": "wechat-read",
+      "name": "微信读书",
+      "url": "https://weread.qq.com/",
+      "description": "微信读书电脑版。",
+      "icon": "assets/images/logos/%e5%be%ae%e4%bf%a1%e8%af%bb%e4%b9%a6.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "book-resource"
+    },
+    {
+      "id": "bookstack",
+      "name": "书栈网",
+      "url": "https://www.bookstack.cn/",
+      "description": "IT 互联网开源编程书籍免费阅读与下载。",
+      "icon": "assets/images/logos/%e4%b9%a6%e6%a0%88%e7%bd%91.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "book-resource"
+    },
+    {
+      "id": "inoreader",
+      "name": "Inoreader",
+      "url": "https://www.inoreader.com/",
+      "description": "重新掌控你的新闻订阅源。",
+      "icon": "assets/images/logos/inoreader.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "blog-forum"
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "description": "一家关于计算机黑客和创业公司的社会化新闻网站。",
+      "icon": "assets/images/logos/hacker-news.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "blog-forum"
+    },
+    {
+      "id": "pinggu",
+      "name": "经管之家",
+      "url": "https://bbs.pinggu.org/",
+      "description": "国内活跃的经济、管理、金融、统计在线教育和咨询网站。",
+      "icon": "assets/images/logos/%e7%bb%8f%e7%ae%a1%e4%b9%8b%e5%ae%b6.jpg",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "blog-forum"
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰的网络日志",
+      "url": "http://www.ruanyifeng.com/blog/",
+      "description": "阮一峰，科技爱好者周刊。",
+      "icon": "assets/images/logos/%e9%98%ae%e4%b8%80%e5%b3%b0.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "blog-forum"
+    },
+    {
+      "id": "coolshell",
+      "name": "酷壳",
+      "url": "https://www.coolshell.cn/",
+      "description": "酷 壳 – CoolShell。",
+      "icon": "assets/images/logos/",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "blog-forum"
+    },
+    {
+      "id": "design-guidelines",
+      "name": "Design Guidelines",
+      "url": "http://designguidelines.co/",
+      "description": "Design Guidelines — The way products are built.",
+      "icon": "assets/images/logos/designguidelines.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "design-spec"
+    },
+    {
+      "id": "awesome-design-systems",
+      "name": "Awesome design systems",
+      "url": "https://github.com/alexpate/awesome-design-systems",
+      "description": "A collection of awesome design systems.",
+      "icon": "assets/images/logos/awesome_design_systems.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "design-spec"
+    },
+    {
+      "id": "material-design",
+      "name": "Material Design",
+      "url": "https://material.io/guidelines/",
+      "description": "Introduction - Material Design.",
+      "icon": "assets/images/logos/Material_Design.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "design-spec"
+    },
+    {
+      "id": "human-interface-guidelines",
+      "name": "Human Interface Guidelines",
+      "url": "https://developer.apple.com/ios/human-interface-guidelines",
+      "description": "Human Interface Guidelines iOS.",
+      "icon": "assets/images/logos/human_interface_guidelines.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "design-spec"
+    },
+    {
+      "id": "online-image-editor",
+      "name": "在线图像编辑器",
+      "url": "https://zaixianps.net/?ref=hrzhanghuan.com",
+      "description": "在线图像编辑器",
+      "icon": "assets/images/logos/photoshopetiquette.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video-tutorial"
+    },
+    {
+      "id": "photoshop-lady",
+      "name": "Photoshop Lady",
+      "url": "http://www.photoshoplady.com/",
+      "description": "Your Favourite Photoshop Tutorials in One Place.",
+      "icon": "assets/images/logos/PhotoshopLady.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video-tutorial"
+    },
+    {
+      "id": "doyoudo",
+      "name": "doyoudo",
+      "url": "http://doyoudo.com/",
+      "description": "创意设计软件学习平台。",
+      "icon": "assets/images/logos/doyoudo.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video-tutorial"
+    },
+    {
+      "id": "web-ui-tutorial",
+      "name": "没位道",
+      "url": "http://www.c945.com/web-ui-tutorial/",
+      "description": "WEB UI免费视频公开课。",
+      "icon": "assets/images/logos/web_ui_tutorial.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video-tutorial"
+    },
+    {
+      "id": "imooc",
+      "name": "慕课网",
+      "url": "https://www.imooc.com/",
+      "description": "程序员的梦工厂（有UI课程）。",
+      "icon": "assets/images/logos/imooc.png",
+      "fallbackIcon": "assets/images/logos/default.webp",
+      "categoryId": "video-tutorial"
+    }
+  ]
+}
